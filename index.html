@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel</title>
+    <link rel="stylesheet" href="C:/Users/Faruka/Pictures/web/css/main.css" />
+  </head>
+  <body onscroll="scrollFn()">
+    <main>
+      <nav class="menu" id="menu">
+        <ul>
+          <li>
+            <a href="#home" id="home-button">Home</a>
+          </li>
+
+          <li>
+            <a href="#gallery">Gallery</a>
+          </li>
+
+          <li>
+            <a href="#about-us">About</a>
+          </li>
+        </ul>
+      </nav>
+
+      <section class="section-main" id="home">
+        <div class="hero">
+          <h1>Travel Time</h1>
+          <div class="hero-sub">
+            Let's travel with us we will start a new adventure together with
+            full of happiness and laughs
+          </div>
+          <a href="#" class="hero-button">Join</a>
+        </div>
+      </section>
+
+      <section class="section-gallery" id="gallery">
+        <div>
+          <h2>Gallery</h2>
+          <div class="cards">
+            <div class="card">
+              <img src="assets/images/gallery/1.png" alt="Mountain" />
+              <div class="card-content">
+                <div class="card-title">Mountain</div>
+                <div class="card-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+                  sunt quisquam dolor ipsum neque totam rerum, beatae aut
+                  similique fuga maiores ab molestias? Vel, magni! Voluptatum,
+                  doloribus aliquid. Distinctio, nam!
+                </div>
+                <a href="#" class="read-more">Read More</a>
+              </div>
+            </div>
+            <div class="card">
+              <img src="assets/images/gallery/2.png" alt="Mountain" />
+              <div class="card-content">
+                <div class="card-title">Mountain</div>
+                <div class="card-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+                  sunt quisquam dolor ipsum neque totam rerum, beatae aut
+                  similique fuga maiores ab molestias? Vel, magni! Voluptatum,
+                  doloribus aliquid. Distinctio, nam!
+                </div>
+                <a href="#" class="read-more">Read More</a>
+              </div>
+            </div>
+            <div class="card">
+              <img src="assets/images/gallery/3.png" alt="Mountain" />
+              <div class="card-content">
+                <div class="card-title">Mountain</div>
+                <div class="card-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+                  sunt quisquam dolor ipsum neque totam rerum, beatae aut
+                  similique fuga maiores ab molestias? Vel, magni! Voluptatum,
+                  doloribus aliquid. Distinctio, nam!
+                </div>
+                <a href="#" class="read-more">Read More</a>
+              </div>
+            </div>
+            <div class="card">
+              <img src="assets/images/gallery/4.png" alt="Mountain" />
+              <div class="card-content">
+                <div class="card-title">Mountain</div>
+                <div class="card-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+                  sunt quisquam dolor ipsum neque totam rerum, beatae aut
+                  similique fuga maiores ab molestias? Vel, magni! Voluptatum,
+                  doloribus aliquid. Distinctio, nam!
+                </div>
+                <a href="#" class="read-more">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-about" id="about-us">
+        <div class="about-container">
+          <h2>About us</h2>
+          <div class="about-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+            molestiae ullam rem, dignissimos amet soluta neque harum earum iusto
+            labore similique, minus pariatur perferendis laborum id cupiditate
+            iste aliquam qui.
+          </div>
+        </div>
+      </section>
+    </main>
+    <script>
+      const isim = 'Ahmet'
+      var soyisim = 'Yılmaz '
+      var tamisim = isim + ' ' + soyisim
+      var yas = 25
+      yas = 18
+      var yetiskinMi = yas !== '18'
+      var buYil = new Date().getFullYear()
+
+      // isim = 'Mehmet'
+      console.log(!true)
+      console.log(++yas)
+      console.log('isim', isim)
+      console.log('Merhaba Dünya!')
+      console.log(isim)
+      console.log(soyisim)
+      console.log(isim, soyisim)
+      console.log(tamisim, yas)
+      console.log('Doğum Yılı: ', buYil + yas)
+
+      // Aşağıdaki sayfa aşağı doğru çekildiğinde üst menüyü karatmak için kullanılır
+      // function scrollFn() {
+      //           if (window.pageYOffset > 100) {
+      //       document.getElementById('menu').classList.add('menu-scroll')
+      //     } else {
+      //       document.getElementById('menu').classList.remove('menu-scroll')
+      //     }
+      //   }
+    </script>
+  </body>
+</html>

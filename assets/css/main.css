@@ -1,0 +1,26 @@
+body,
+html {
+  margin: 0;
+  height: 100%;
+}
+main {
+  height: 100%;
+}
+section {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section-main {
+  background-image: url('C:/Users/Faruka/Pictures/web/assets/images/MainSection.png');
+}
+
+.section-gallery {
+  background-image: url('C:/Users/Faruka/Pictures/web/assets/images/GallerySection.png');
+}
+
+.section-about {
+  background-image: url('C:/Users/Faruka/Pictures/web/assets/images/AboutSection.png');
+}
